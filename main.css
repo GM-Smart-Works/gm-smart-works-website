@@ -55,7 +55,8 @@
 
   /* ---- Services ---- */
   section{padding:90px 0;}
-  h2.section-title{font-size:clamp(28px,4vw,42px); font-weight:600; max-width:640px;}
+  h2.section-title{font-size:28px; font-weight:600; margin-bottom:18px;}
+  h2.section-title .line2{color:var(--orange);}
   .service-groups{margin-top:56px; display:flex; flex-direction:column; gap:56px;}
   .service-group-head{display:flex; align-items:baseline; gap:16px; margin-bottom:26px; border-bottom:2px solid var(--charcoal); padding-bottom:14px;}
   .service-group-head h3{font-size:24px; font-weight:600;}
