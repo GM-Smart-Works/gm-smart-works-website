@@ -3,7 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GM Smart Works (Pty) Ltd — Structural Steel Erection, Installation &amp; Fabrication</title>
+<title>GM Smart Works (Pty) Ltd | Structural Steel Erection, Installation &amp; Fabrication</title>
+<meta name="description" content="GM Smart Works (Pty) Ltd provides structural steel erection, installation, fabrication and consulting services across Johannesburg and Gauteng.">
+<meta name="keywords" content="structural steel, steel erection, steel installation, steel fabrication, steel consulting, Johannesburg, Gauteng">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#1B1E21">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GM Smart Works (Pty) Ltd">
+<meta property="og:title" content="GM Smart Works (Pty) Ltd | Structural Steel Erection, Installation &amp; Fabrication">
+<meta property="og:description" content="Structural steel erection, installation, fabrication and consulting services across Johannesburg and Gauteng.">
+<meta property="og:image" content="images/logo.png">
+<meta property="og:image:alt" content="GM Smart Works logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GM Smart Works (Pty) Ltd | Structural Steel Erection, Installation &amp; Fabrication">
+<meta name="twitter:description" content="Structural steel erection, installation, fabrication and consulting services across Johannesburg and Gauteng.">
+<meta name="twitter:image" content="images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="main.css">
@@ -12,7 +26,7 @@
 </head>
 <body>
 
-  <div class="navbar">
+  <div class="navbar" id="siteHeader">
     <div class="wrap">
       <div class="brand">
         <img src="images/logo.png" alt="GM Smart Works logo" class="logo-img">
@@ -32,7 +46,7 @@
     <div class="wrap">
       <span class="eyebrow">STEEL ERECTION · INSTALLATION · FABRICATION</span>
       <h1 class="headline">Structural steel,<br><span class="line2">built to hold.</span></h1>
-      <p class="hero-sub">GM Smart Works specialises in structural steel erection, installation and fabrication, backed by hands-on consulting — delivering industrial and commercial steelwork across Johannesburg and Gauteng.</p>
+      <p class="hero-sub">GM Smart Works specialises in structural steel erection, installation and fabrication, backed by hands-on consulting, delivering industrial and commercial steelwork across Johannesburg and Gauteng.</p>
       <div class="hero-cta">
         <a href="#quote" class="btn btn-primary">Get a free quote</a>
         <a href="#services" class="btn btn-outline">See our services</a>
@@ -56,17 +70,41 @@
             <div class="service-card">
               <h4>Steel Erection</h4>
               <p>On-site erection of structural steel frames, from warehouse and canopy structures to full industrial steelwork.</p>
-              <span class="rm">READ MORE →</span>
+              <button class="rm service-toggle" type="button" aria-expanded="false" aria-controls="steel-erection-more"><span>READ MORE →</span></button>
+              <div class="service-more" id="steel-erection-more" hidden>
+                <p>We coordinate lifting, alignment, bolting and final positioning for frames, portal structures and support steel.</p>
+                <ul>
+                  <li>Crane and rigging coordination</li>
+                  <li>Connection and bolt-up installation</li>
+                  <li>Site sequencing for safer builds</li>
+                </ul>
+              </div>
             </div>
             <div class="service-card">
               <h4>Installations</h4>
               <p>Installation of structural steel components, piping structures, and industrial steel fittings.</p>
-              <span class="rm">READ MORE →</span>
+              <button class="rm service-toggle" type="button" aria-expanded="false" aria-controls="installations-more"><span>READ MORE →</span></button>
+              <div class="service-more" id="installations-more" hidden>
+                <p>Our installation work covers brackets, platforms, pipe supports and steel fittings that need a precise fit on site.</p>
+                <ul>
+                  <li>Structural component placement</li>
+                  <li>Piping and support steel installation</li>
+                  <li>Fit-up checks before handover</li>
+                </ul>
+              </div>
             </div>
             <div class="service-card">
               <h4>Fabrications</h4>
               <p>Structural fabrications and reworking of existing steel installations to meet new site or operational requirements.</p>
-              <span class="rm">READ MORE →</span>
+              <button class="rm service-toggle" type="button" aria-expanded="false" aria-controls="fabrications-more"><span>READ MORE →</span></button>
+              <div class="service-more" id="fabrications-more" hidden>
+                <p>We fabricate and modify components to suit site changes, repairs, upgrades and new load requirements.</p>
+                <ul>
+                  <li>Workshop and site-based modification</li>
+                  <li>Repairs and strengthening work</li>
+                  <li>Custom steel parts for project needs</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -79,12 +117,28 @@
             <div class="service-card">
               <h4>Project Consulting</h4>
               <p>On-site consulting and advisory services for structural steel projects, including planning, design review, and installation guidance.</p>
-              <span class="rm">READ MORE →</span>
+              <button class="rm service-toggle" type="button" aria-expanded="false" aria-controls="consulting-more"><span>READ MORE →</span></button>
+              <div class="service-more" id="consulting-more" hidden>
+                <p>We support planning, scope checking and practical buildability reviews before steel work starts.</p>
+                <ul>
+                  <li>Scope and method guidance</li>
+                  <li>Build sequence planning</li>
+                  <li>Practical site advice for teams</li>
+                </ul>
+              </div>
             </div>
             <div class="service-card">
               <h4>Site Supervision</h4>
               <p>On-site supervision and oversight of steel installation projects to ensure quality and compliance.</p>
-              <span class="rm">READ MORE →</span>
+              <button class="rm service-toggle" type="button" aria-expanded="false" aria-controls="supervision-more"><span>READ MORE →</span></button>
+              <div class="service-more" id="supervision-more" hidden>
+                <p>We monitor installation progress, quality checks and the handoff between teams so the work stays controlled.</p>
+                <ul>
+                  <li>Quality and progress oversight</li>
+                  <li>Safety and compliance checks</li>
+                  <li>Client feedback during execution</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -93,18 +147,31 @@
     </div>
   </section>
 
-  <div class="partners">
+  <section class="materials">
     <div class="wrap">
       <div class="section-tag">Trusted materials</div>
-      <h3>Steel suppliers &amp; materials we work with</h3>
-      <div class="partner-row">
-        <div class="partner-slot">[ SUPPLIER LOGO ]</div>
-        <div class="partner-slot">[ SUPPLIER LOGO ]</div>
-        <div class="partner-slot">[ SUPPLIER LOGO ]</div>
-        <div class="partner-slot">[ SUPPLIER LOGO ]</div>
+      <h3>How we source and verify steel supplies</h3>
+      <div class="materials-grid">
+        <article class="material-card">
+          <h4>Certified stockists</h4>
+          <p>We source through established steel stockists and processors who can provide traceability, batch consistency and the right product grades for the job.</p>
+        </article>
+        <article class="material-card">
+          <h4>Project-specific selection</h4>
+          <p>Material choices are matched to span, load, exposure and corrosion requirements instead of relying on one-size-fits-all stock.</p>
+        </article>
+        <article class="material-card">
+          <h4>Quality checks</h4>
+          <p>Incoming material is checked before fabrication or installation so we can catch specification issues early.</p>
+        </article>
+        <article class="material-card">
+          <h4>Supply coordination</h4>
+          <p>We plan material purchases around the build schedule so fabrication, delivery and site work stay aligned and projects avoid avoidable delays.</p>
+        </article>
       </div>
+      <p class="material-note">This keeps the site compliant while still showing how we manage material quality and procurement.</p>
     </div>
-  </div>
+  </section>
 
   <section id="gallery" class="gallery">
     <div class="wrap">
@@ -112,12 +179,20 @@
       <h2 class="section-title">Recent structural steel projects.</h2>
       <div class="gallery-grid">
         <div class="gallery-item">
+          <img src="images/project10.jpeg" alt="Structural steel frame installation under crane lift">
+          <p>Structural steel frame installation, active crane lift</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/project11.jpeg" alt="Steel frame erection with multiple columns and crane support">
+          <p>Warehouse steel frame erection, full site assembly</p>
+        </div>
+        <div class="gallery-item">
           <img src="images/project2.jpg" alt="Industrial pump room piping installation">
-          <p>Industrial pump room — piping installation and fabrication</p>
+          <p>Industrial pump room, piping installation and fabrication</p>
         </div>
         <div class="gallery-item">
           <img src="images/project6.jpg" alt="Crane lifting structural steel truss into place">
-          <p>Steel erection in progress — truss lift by mobile crane</p>
+          <p>Steel erection in progress, truss lift by mobile crane</p>
         </div>
         <div class="gallery-item">
           <img src="images/project5.jpg" alt="Structural steel warehouse frame at dusk">
@@ -149,7 +224,7 @@
         <button class="tab-btn" data-tab="reliability">Reliability</button>
       </div>
       <div class="tab-panel active" id="tab-experience">
-        GM Smart Works has been registered and operating since 2018, with hands-on experience erecting structural steel frames for warehouses, canopies, and industrial sites, plus installation and fabrication work on plant piping and structural fittings. [Add specific years of trade experience, certifications, or notable clients here.]
+        GM Smart Works has been registered and operating since 2018, with hands-on experience erecting structural steel frames for warehouses, canopies, and industrial sites, plus installation and fabrication work on plant piping and structural fittings. Our team has the skills and knowledge to handle complex steelwork projects, ensuring that every job is completed safely, efficiently, and to the highest standards.
       </div>
       <div class="tab-panel" id="tab-quality">
         <p>We use only high-quality steel and materials from trusted suppliers, ensuring that every project meets industry standards and client expectations. Our team is committed to precision and attention to detail, delivering durable and reliable steel structures.</p>
@@ -165,7 +240,7 @@
       <div>
         <div class="section-tag">About the company</div>
         <h2 class="section-title">Steel work you can see for yourself.</h2>
-        <p>GM Smart Works (Pty) Ltd is a registered South African company, specialising in structural steel erection, installation and fabrication — backed by consulting services on-site. [Add a short founder/company story here — how it started, notable projects.]</p>
+        <p>GM Smart Works (Pty) Ltd is a registered South African company, specialising in structural steel erection, installation and fabrication, backed by consulting services on-site. [Add a short founder/company story here, how it started, notable projects.]</p>
         <p>Based in Johannesburg, the team works across Gauteng and surrounding areas, delivering industrial and commercial steelwork projects for warehouses, canopies, carports, and more.</p>
       </div>
       <div class="photo-grid">
@@ -200,9 +275,10 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="images/logo.png" alt="GM Smart Works logo" class="logo-img">
+            <div class="footer-monogram">GM</div>
             <div class="brand-name">GM SMART WORKS<small>(PTY) LTD</small></div>
           </div>
+          <p class="footer-brand-note">Structural steel erection, installation and fabrication for industrial and commercial projects in Johannesburg and Gauteng.</p>
         </div>
         <div class="footer-pages">
           <h5>Pages</h5>
@@ -234,7 +310,7 @@
       </div>
     </div>
     <div class="wrap bottom">
-      <span>© 2026 GM SMART WORKS (PTY) LTD — ALL RIGHTS RESERVED</span>
+      <span>© 2026 GM SMART WORKS (PTY) LTD | ALL RIGHTS RESERVED</span>
       <span>REG. 2018/400311/07</span>
     </div>
   </footer>
