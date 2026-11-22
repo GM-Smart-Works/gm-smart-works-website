@@ -23,6 +23,7 @@
 - Added skip-to-content, focus states, semantic landmarks, labelled form controls, and reduced-motion support.
 - Restored the original WhatsApp phone icon on the floating button and popup avatar.
 - Rebalanced the desktop section heading sizes and widened the Why Us content area to keep the heading on a single line at desktop widths.
+- Standardised the visible and WhatsApp phone number as +27 69 635 9724 and linked the visible number as a telephone action.
 
 ## TODOs / content still needed
 
