@@ -169,3 +169,12 @@ document.addEventListener("keydown", event => {
     waFab.focus();
   }
 });
+
+const quoteSection = document.getElementById("quote");
+if ("IntersectionObserver" in window && quoteSection && window.matchMedia("(max-width: 640px)").matches) {
+  new IntersectionObserver(entries => {
+    const quoteVisible = entries[0].isIntersecting;
+    waFab.classList.toggle("is-hidden", quoteVisible);
+    if (quoteVisible) setWhatsApp(false);
+  }, { threshold: 0.15 }).observe(quoteSection);
+}

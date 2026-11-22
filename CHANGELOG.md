@@ -24,6 +24,8 @@
 - Restored the original WhatsApp phone icon on the floating button and popup avatar.
 - Rebalanced the desktop section heading sizes and widened the Why Us content area to keep the heading on a single line at desktop widths.
 - Standardised the visible and WhatsApp phone number as +27 69 635 9724 and linked the visible number as a telephone action.
+- Fixed the mobile header to a consistent 72px height with the hamburger aligned to the right edge and improved mobile menu close-state animation.
+- Hid the floating WhatsApp launcher while the quote form is on mobile screens so it does not cover form controls.
 
 ## TODOs / content still needed
 
