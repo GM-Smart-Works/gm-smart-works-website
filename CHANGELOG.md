@@ -21,6 +21,8 @@
 - Added `robots.txt` and `sitemap.xml`.
 - Added WebP versions of project images with original JPEG fallbacks and explicit image dimensions/loading attributes.
 - Added skip-to-content, focus states, semantic landmarks, labelled form controls, and reduced-motion support.
+- Restored the original WhatsApp phone icon on the floating button and popup avatar.
+- Rebalanced the desktop section heading sizes and widened the Why Us content area to keep the heading on a single line at desktop widths.
 
 ## TODOs / content still needed
 
